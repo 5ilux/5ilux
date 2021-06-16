@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Porre</title>
+</head>
+<style>
+
+
+
+audio{   
+        position: absolute;
+        z-index: -2;    
+        width: 400px;
+        height: 200px;
+        margin-top: 0.1%;
+        margin-left: 0.3%;}
+        
+
+video{
+        width: 100%;
+        height: 100%;
+
+}
+
+.zona {
+        position:absolute;
+        right: 40%;
+        color: white;
+
+}
+
+button{
+        z-index: 1;
+        position:absolute;
+        top: 250px;
+        right: 50px;
+        color: black;
+        background-color: rgba(192, 192, 192, 0.699);
+        border: none;
+        height: 150px;
+        width: 100px;
+
+}
+
+
+@media screen and (max-width:800px) {
+        
+        *{background-color:#111822;}
+        
+        video{
+                width: 500px;
+                height: 500px;
+                position: absolute;
+                right: 3px;
+                top: 5%;
+
+        }
+
+        audio{
+        
+        position: absolute;
+        z-index: -2;    
+        width: 200px;
+        height: 200px;
+        top: 200px;
+        margin-left: 0.3%;
+        }
+        
+        .zona {
+        position:relative;
+        left: 20%;
+        color: white;
+        z-index: 2;
+        top: 20px;              
+ }
+ 
+ button{
+        z-index: 1;
+        position:absolute;
+        top: 500px;
+        left: 50px;
+        color: black;
+        background-color: rgba(192, 192, 192, 0.699);
+        border: none;
+        height: 70px;
+        width: 300px;
+
+}
+
+
+}
+
+
+
+
+
+</style>
+<body>
+   
+   <h1 class="zona">ZONA DE BAILE</h1>
+    <audio controls="controls" autoplay loop>
+    <source src="/SILUX/Audio/1992 y audio.mp3"></audio>
+    <video id="fondo" loop autoplay muted>
+    <source src="/SILUX/Video/nene bailando.mp4"/>
+    </video>
+    <a href="/SILUX/Silux.html"><button>PRENDANSE UN PORRO, BAILEN UN RATO Y VUELVAN A LA PAGINA</button></a>
+    
+    
+</body>
+</html>

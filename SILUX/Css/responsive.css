@@ -1,0 +1,132 @@
+@media screen and (max-width:800px) {
+    
+
+    #Integrantes{   
+                z-index: 1;
+                position: absolute;
+                color: white;
+                top: 98px;
+                left: 30px;
+                font-size: 10px;
+                opacity: 87%;  
+    }
+
+    #List { 
+        position: absolute;
+        z-index: 1;
+        top: 130px;
+        left: 30px;
+    }
+
+    #Images {
+        text-decoration: none;
+        position: absolute;
+        z-index: 1;
+        color: white;
+        top: 111px;
+        right: 20px;
+        font-size: 16px;
+    
+    }
+    
+    #Media {
+        text-decoration: none;
+        position: absolute;
+        z-index: 1;
+        color: white;
+        top: 110px;
+        right: 100px;
+        font-size: 17px;
+    
+    }
+
+    #Vila { 
+        opacity: 0%;
+        z-index: 1;
+        text-decoration: none;
+        position:absolute;
+        visibility:unset;
+        top: 190px;
+        right: 310px;
+        font-size: 40px;
+    }
+    
+    #Teo { 
+        opacity: 0%;
+        z-index: 1;
+        text-decoration: none;
+        position:absolute;
+        visibility:unset;
+        top: 95px;
+        right: 150px;
+        font-size: 70px;
+    }
+    
+    #Nico { 
+        opacity: 0%;
+        z-index: 1;
+        text-decoration: none;
+        position:absolute;
+        visibility:unset;
+        top: 340px;
+        right: 20px;
+        font-size: 40px;
+    }
+    
+    #Fran { 
+        opacity: 0%;
+        z-index: 1;
+        text-decoration: none;
+        position:absolute;
+        visibility:unset;
+        top: 190px;
+        right: 28px;
+        font-size: 40px;
+    }
+    
+    #George { 
+        opacity: 0%;
+        z-index: 1;
+        text-decoration: none;
+        position:absolute;
+        visibility:unset;
+        top: 340px;
+        left: 27px;
+        font-size: 40px;
+    }
+    
+    #Porre { 
+        opacity: 0%;
+        z-index: 1;
+        text-decoration: none;
+        position:absolute;
+        visibility:unset;
+        top: 270px;
+        right: 160px;
+        font-size: 40px;
+    }
+
+    audio {
+        
+        position: absolute;
+        z-index: -2;    
+        width: 30px;
+        height: 20px;
+        margin-top: 0.7%;
+        margin-left: 0.3%;}
+
+        
+        
+
+
+
+
+
+
+
+
+
+
+}
+
+

@@ -1,0 +1,159 @@
+#Titulo {
+        font-family: 'Times New Roman', Times, serif;
+        text-align: center;
+        font-size: 40px;
+        color: rgb(255, 255, 255);
+        font-style: italic;
+        background-color: rgb(0, 0, 38);      
+        border-bottom: px solid rgb(0, 0, 38); 
+        z-index: 1; 
+        padding: none;
+        margin: none;  
+    }
+
+
+
+
+audio {
+        
+        position: absolute;
+        z-index: -2;    
+        width: 200px;
+        height: 20px;
+        margin-top: 0.7%;
+        margin-left: 0.3%; 
+    
+    }
+
+    #Integrantes {   
+            z-index: 1;
+            position: absolute;
+            color: white;
+            top: 98px;
+            right: 40px;
+            font-size: 12px;
+            opacity: 87%;     
+}
+    
+                            
+img {
+        position: relative;
+        width: 100%;
+        z-index: -1;   
+        
+    }
+
+#List { 
+    position: absolute;
+    z-index: 1;
+    top: 140px;
+    right: 50px;
+    
+}
+
+#Images {
+    text-decoration: none;
+    position: absolute;
+    z-index: 1;
+    color: white;
+    top: 111px;
+    right: 150px;
+    font-size: 20px;
+
+}
+
+#Media {
+    text-decoration: none;
+    position: absolute;
+    z-index: 1;
+    color: white;
+    top: 112px;
+    right: 250px;
+    font-size: 20px;
+
+}
+
+a:hover {text-decoration: none;
+    color: rgb(48, 48, 59);}
+
+a:link { text-decoration: none;
+    color: white;}
+
+a:visited {text-decoration: none;
+    color:white}
+
+
+#Vila { 
+    opacity: 0%;
+    z-index: 1;
+    text-decoration: none;
+    position:absolute;
+    visibility:unset;
+    top: 465px;
+    right: 1130px;
+    font-size: 180px;
+}
+
+#Teo { 
+    opacity: 0%;
+    z-index: 1;
+    text-decoration: none;
+    position:absolute;
+    visibility:unset;
+    top: 160px;
+    right: 600px;
+    font-size: 200px;
+}
+
+#Nico { 
+    opacity: 0%;
+    z-index: 1;
+    text-decoration: none;
+    position:absolute;
+    visibility:unset;
+    top: 1035px;
+    right: 37px;
+    font-size: 180px;
+}
+
+#Fran { 
+    opacity: 0%;
+    z-index: 1;
+    text-decoration: none;
+    position:absolute;
+    visibility:unset;
+    top: 465px;
+    right: 60px;
+    font-size: 180px;
+}
+
+#George { 
+    opacity: 0%;
+    z-index: 1;
+    text-decoration: none;
+    position:absolute;
+    visibility:unset;
+    top: 1035px;
+    right: 1109px;
+    font-size: 180px;
+}
+
+#Porre { 
+    opacity: 0%;
+    z-index: 1;
+    text-decoration: none;
+    position:absolute;
+    visibility:unset;
+    top: 770px;
+    right: 590px;
+    font-size: 150px;
+}
+
+.Contenedor {
+
+    width: 100%;
+    max-width: 1500px;
+
+    
+}
+

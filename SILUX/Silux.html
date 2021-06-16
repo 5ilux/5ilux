@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,user-scalable=no, 
+                initial-scale=1.0, maximun-scale=1.0, minimun-scale=1.0">
+    
+    <title>SILUX</title>
+    <link rel="stylesheet" href="/SILUX/Css/style.css">
+    <link rel="stylesheet" href="/SILUX/Css/responsive.css">
+</head>
+<body>
+    <div class="Contenedor">
+    <div id="List">
+    <form name="Lista">
+        <select name="lista" id="lista">
+        <option href="#" value=""></option>
+        <option href="#" value="/SILUX/Html/Vila1.html">Vila</option>
+        <option href="#" value="/SILUX/Html/Teo1.html">Teo</option>
+        <option href="#" value="/SILUX/Html/Nico1.html">Nico</option>
+        <option href="#" value="/SILUX/Html/Fran1.html">Fran</option>
+        <option href="#" value="/SILUX/Html/George1.html">George</option>
+        </select>
+        </form></div>
+        
+        <script type ="text/javascript">
+        var urlMenu = document.getElementById('lista');
+        urlMenu.onchange = function()
+        {
+        var userOption = this.options[this.selectedIndex];
+        if (userOption.value != "nothing")
+        {window.close(userOption.value); open(userOption.value); window.close(userOption.value); } 
+              
+    }
+        </script>
+
+    <div id="Titulo"><a href="/SILUX/Html/Titulo.html">SILUX</a></div>
+    <br></br>
+    <audio controls="controls" autoplay>
+    <source src="/SILUX/Audio/1992.mp3" autoplay></audio>
+    <div id="Background"><img src="/SILUX/Image/Silux.jfif" alt="."></div>
+    <div id='Vila'><a href="/SILUX/Html/Vila.html" >Vila</a></div>
+    <div id='Teo'><a href="/SILUX/Html/Teo.html" >Teo</a></div>
+    <div id='Nico'><a href="/SILUX/Html/Nico.html" >Nico</a></div>
+    <div id='Fran'><a href="/SILUX/Html/Fran.html" >Fran</a></div>
+    <div id='George'><a href="/SILUX/Html/George.html" >Geor</a></div>
+    <div id='Porre'><a href="/SILUX/Html/Porre.html" >Porre</a></div>
+    <div id='Images'><a href="/SILUX/Html/Images.html">Imagenes</a></div>
+    <div id='Integrantes'><h2>Integrantes</h2></div>
+    <div id='Media'><a href="/SILUX/Html/Media.html">Media</a></div> 
+
+</div>
+    
+       
+</body>
+</html>
